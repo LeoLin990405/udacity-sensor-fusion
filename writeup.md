@@ -1,5 +1,23 @@
 # Writeup: Track 3D-Objects Over Time
 
+## Mid-Term Project: 3D Object Detection
+
+### Lidar Point Cloud and Range Image
+
+The top lidar was selected because it provides the most complete 360-degree field of view and the densest point cloud among the available sensors. I implemented point-cloud visualization with Open3D and range-image generation by extracting the range and intensity channels from the Waymo lidar frame. Negative range and intensity values are removed, range is scaled into an 8-bit image, and intensity is clipped by percentile before normalization so that highly reflective outliers do not dominate the visualization.
+
+### Birds-Eye View Preprocessing
+
+The point cloud is cropped to the configured detection limits, shifted in height so the lowest configured z value maps to zero, and discretized into BEV coordinates. The intensity map keeps the top-most lidar point per BEV cell and normalizes reflectivity. The height map records the normalized z value of the top point, and the density map uses log-normalized point counts. These three maps are stacked into a tensor with the expected channel order for the object detector.
+
+### Detection and Post-Processing
+
+The implementation supports both Darknet/Complex YOLO and FPN ResNet model configurations. The FPN ResNet configuration defines its heads for center heatmap, center offset, direction, z coordinate, and dimensions, then decodes and post-processes model outputs. Final detections are converted from BEV pixel coordinates into metric vehicle coordinates using the configured x and y limits, BEV dimensions, and discretization factor. The returned object format contains class id, center position, box dimensions, and yaw angle.
+
+### Evaluation
+
+Detection performance is evaluated by matching valid ground-truth labels to detections using polygon IoU in BEV. For each valid label, the best detection above the IoU threshold is selected, and the x, y, and z center deviations are recorded. Precision is computed from true positives and false positives, while recall is computed from true positives and all valid positives. The evaluation code also supports plotting histograms for IoU and center deviations.
+
 ### 1. Write a short recap of the four tracking steps and what you implemented there (filter, track management, association, camera fusion). Which results did you achieve? Which part of the project was most difficult for you to complete, and why?
 
 The tracking pipeline follows four major stages. First, the Kalman filter predicts each track state with a constant-velocity motion model and a process-noise matrix based on the configured time step and acceleration noise. Second, measurements update the state with either the linear lidar model or the nonlinear camera projection model. Third, the association module computes the Mahalanobis distance between tracks and measurements, gates unlikely matches with the chi-square threshold, and greedily assigns the lowest valid distances. Fourth, the track-management module maintains tentative, initialized, and confirmed tracks, increases scores after successful updates, decreases scores when visible tracks miss detections, initializes new lidar-based tracks, and deletes unreliable or highly uncertain tracks.
