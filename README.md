@@ -1,6 +1,18 @@
 # SFND_Unscented_Kalman_Filter
 Sensor Fusion UKF Highway Project Starter Code
 
+## Project Submission Notes
+
+This repository completes the UKF implementation in `src/ukf.cpp`.
+
+- The filter initializes from either lidar or radar measurements.
+- The prediction step uses augmented sigma points, CTRV process propagation, process noise, weighted mean recovery, and covariance recovery.
+- Lidar updates use the linear position measurement model.
+- Radar updates transform predicted sigma points into polar measurement space, normalize bearing residuals, compute cross-correlation, and update the state and covariance.
+- Angle normalization is applied wherever yaw or bearing residuals can wrap around ±pi.
+
+The process noise values are set conservatively for the highway simulation (`std_a_ = 1.5`, `std_yawdd_ = 0.5`) while keeping the sensor noise values provided by the project.
+
 <img src="media/ukf_highway_tracked.gif" width="700" height="400" />
 
 In this project you will implement an Unscented Kalman Filter to estimate the state of multiple cars on a highway using noisy lidar and radar measurements. Passing the project requires obtaining RMSE values that are lower that the tolerance outlined in the project rubric. 
