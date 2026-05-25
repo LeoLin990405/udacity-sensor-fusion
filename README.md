@@ -1,5 +1,18 @@
 # SFND 2D Feature Tracking
 
+## Project Submission Notes
+
+This repository completes the Camera Based 2D Feature Tracking project requirements.
+
+- MP.1: The image buffer is implemented as a fixed-size ring buffer with size `dataBufferSize`.
+- MP.2: Keypoint detectors are selectable by string and include Shi-Tomasi, Harris, FAST, BRISK, ORB, AKAZE, and SIFT.
+- MP.3: Keypoints are filtered to the preceding-vehicle rectangle before descriptor extraction.
+- MP.4: Descriptor extraction supports BRISK, BRIEF, ORB, FREAK, AKAZE, and SIFT.
+- MP.5: Matching supports both brute-force and FLANN matchers, with L2 for HOG descriptors and Hamming distance for binary descriptors.
+- MP.6: KNN matching applies a descriptor-distance ratio test with threshold `0.8`.
+
+The implementation is contained in `src/MidTermProject_Camera_Student.cpp` and `src/matching2D_Student.cpp`.
+
 <img src="images/keypoints.png" width="820" height="248" />
 
 The idea of the camera course is to build a collision detection system - that's the overall goal for the Final Project. As a preparation for this, you will now build the feature tracking part and test various detector / descriptor combinations to see which ones perform best. This mid-term project consists of four parts:
