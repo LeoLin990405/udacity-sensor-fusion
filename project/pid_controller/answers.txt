@@ -1,0 +1,13 @@
+The complete answers, gain table, and plots are in ../../report.md.
+
+Summary:
+- P supplies immediate correction, I removes persistent bias, and D damps
+  abrupt changes and oscillation.
+- P, PI, and PID gain sets were compared independently for throttle and steer.
+- Automatic tuning can minimize RMS tracking error, command jerk, saturation,
+  and safety penalties over repeated CARLA episodes.
+- PID is inexpensive, interpretable, and model-free, but needs retuning and
+  cannot anticipate constraints. Model-based control can optimize a horizon and
+  couple actuators, but costs more and is sensitive to model mismatch.
+- Integral anti-windup is implemented. Gain scheduling, derivative filtering,
+  and curvature feed-forward are proposed next improvements.

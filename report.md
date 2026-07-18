@@ -1,37 +1,122 @@
 # Control and Trajectory Tracking Report
 
-## Summary
+## Controller Design
 
-The project implements a PID controller for throttle and steering.  The `PIDController` class stores proportional, integral, and derivative errors, updates them with a discretized time step, and clamps commands to the simulator limits.  Throttle commands are limited to `[-1, 1]`; steering commands are limited to `[-1.2, 1.2]`.
+The project uses two instances of the same discrete PID controller. The
+steering controller is limited to `[-1.2, 1.2]`; the longitudinal controller is
+limited to `[-1.0, 1.0]`, where positive output is throttle and negative output
+is converted to brake.
 
-## Error Definitions
+For sample interval `dt`, the implementation updates:
 
-The throttle error is `desired_velocity - current_velocity`.  If the car is below the planned speed, the error is positive and the controller increases throttle; if the car is above the planned speed, the command moves toward braking.
+```text
+p_error = error
+i_error = i_error + error * dt
+d_error = (error - previous_error) / dt
+command = clamp(Kp*p_error + Ki*i_error + Kd*d_error)
+```
 
-The steering error is the normalized angle between the current yaw and the direction from the ego position to the next planned trajectory point.  This follows the rubric because it compares the actual heading with the desired heading needed to reach the planned trajectory.
+The first derivative sample is zero, invalid sample intervals retain a safe
+default, and integral anti-windup limits the I-term contribution to the command
+range.
 
-## PID Effects
+## Tracking Errors
 
-The proportional term responds immediately to the current error and provides most of the correction.  The derivative term damps oscillation by reacting to how quickly the error is changing.  The integral term removes small persistent bias, such as a steady speed or steering offset, but it must be kept small to avoid windup.
+The longitudinal error is:
 
-## Plot Analysis
+```text
+error_throttle = planned_velocity.back() - measured_velocity
+```
 
-![Throttle PID](plots/throttle_pid.png)
+A positive value means the car is too slow. A negative value produces a
+negative longitudinal command, which `main.cpp` converts to braking.
 
-The throttle plot shows the speed error decaying as the command compensates for the difference between target and actual speed.  The command starts high and then settles as the velocity approaches the planned profile.
+The lateral error is:
 
-![Steering PID](plots/steer_pid.png)
+```text
+desired_yaw = atan2(planned_y.back() - ego_y,
+                    planned_x.back() - ego_x)
+error_steer = normalize_angle(desired_yaw - measured_yaw)
+```
 
-The steering plot shows bounded heading error and a steering command that stays within the required `[-1.2, 1.2]` range.  The derivative component helps prevent sustained oscillation after heading changes.
+Normalization avoids a discontinuity when an angle crosses `-pi` or `pi`.
+Both calculations are isolated in `control_errors.cpp` and called directly by
+the simulator entry point.
+
+## Gain Selection
+
+I tested proportional-only, proportional-integral, and full PID variants while
+changing one term at a time. The final values balance convergence and command
+smoothness:
+
+| Controller | Kp | Ki | Kd |
+| --- | ---: | ---: | ---: |
+| Throttle P | 0.20 | 0 | 0 |
+| Throttle PI | 0.20 | 0.0009 | 0 |
+| **Throttle PID selected** | **0.20** | **0.0009** | **0.10** |
+| Steering P | 0.30 | 0 | 0 |
+| Steering PI | 0.30 | 0.0010 | 0 |
+| **Steering PID selected** | **0.30** | **0.0010** | **0.30** |
+
+I first increased `Kp` until tracking became responsive, introduced a small
+`Ki` to reduce persistent bias, and then increased `Kd` to damp abrupt target
+changes. Larger integral gains accumulated excessive correction; larger
+derivative gains made commands react too sharply to target steps.
+
+## Response Plots
+
+The following reproducible gain experiments compile and execute the production
+PID and error sources against a deterministic first-order plant. They provide a
+dependency-isolated comparison; CARLA itself remains the final integration
+environment and writes live logs for `project/plot_pid.py`.
+
+![Throttle PID response](plots/throttle_pid.png)
+
+The throttle target steps from 8 m/s to 5 m/s. The controller first produces
+positive throttle, then a negative command for braking. The error converges
+toward zero in both regimes, and all output remains inside `[-1, 1]`.
+
+![Steering PID response](plots/steer_pid.png)
+
+The desired heading changes from 0.65 rad to -0.35 rad. The selected controller
+turns in the correct direction, its derivative term reacts to the heading step,
+and the command remains inside `[-1.2, 1.2]` while the angular error decays.
+
+## P, I, and D Effects
+
+The proportional term supplies the immediate correction and determines most of
+the response speed. Too little `Kp` is sluggish; too much causes oscillation.
+The integral term accumulates sustained error and removes bias, but excessive
+`Ki` causes windup and overshoot. The derivative term reacts to the rate of
+change and damps oscillation, although excessive `Kd` amplifies noisy
+measurements.
 
 ## Automatic Tuning
 
-A practical automatic tuning method would run repeated simulator episodes and minimize an objective such as RMS steering error, RMS speed error, command jerk, and lane deviation.  Twiddle, coordinate descent, or Bayesian optimization could tune `Kp`, `Ki`, and `Kd` under the same test route.
+An automatic approach could run identical CARLA episodes and minimize a
+weighted objective containing RMS speed error, RMS heading error, lateral
+deviation, command jerk, saturation time, and collision penalties. Coordinate
+descent or Twiddle is simple for six gains; Bayesian optimization can reduce the
+number of expensive simulator episodes. Training and evaluation routes should
+be separated so the gains do not overfit one trajectory.
 
-## Model-Free Controller Pros and Cons
+## Model-Free and Model-Based Trade-offs
 
-PID is model-free, so it is simple, fast, and does not require an accurate vehicle dynamics model.  It is also easy to debug because the three terms have intuitive effects.  The downside is that PID can require manual retuning when vehicle dynamics, speed, tire friction, or trajectory shape changes.  It also does not reason about future constraints as a model-based controller such as MPC would.
+PID is model-free. Its advantages are low computational cost and no requirement
+for an accurate vehicle dynamics model. It is also easy to inspect and debug.
+Its disadvantages are manual retuning when speed, payload, road friction, or
+vehicle dynamics change, and no direct ability to optimize future constraints
+or coordinate steering and throttle over a horizon.
 
-## Possible Improvements
+A model-based controller such as MPC can anticipate trajectory curvature and
+enforce actuator, comfort, and safety constraints. It can also optimize coupled
+lateral and longitudinal behavior. Its disadvantages are sensitivity to model
+mismatch and substantially greater implementation and runtime complexity.
 
-I would add anti-windup limits to the integral term, smooth the desired trajectory point selection, and tune different gain sets for low-speed and high-speed driving.  A feed-forward steering component from path curvature would also reduce the amount of corrective feedback required from the PID.
+## Further Improvements
+
+The implemented anti-windup already improves recovery after saturation. Further
+work could schedule gains by speed, low-pass filter the derivative estimate,
+add curvature feed-forward steering, and use a closest-forward-point lookahead
+instead of a fixed terminal trajectory point. A final extension would compare
+the PID baseline against an MPC controller on the same CARLA routes.

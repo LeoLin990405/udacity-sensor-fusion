@@ -1,0 +1,6 @@
+.DS_Store
+.idea
+__pycache__/
+*.pyc
+project/pid_controller/build/
+project/pid_controller/pid_controller
