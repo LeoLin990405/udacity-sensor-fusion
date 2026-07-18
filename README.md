@@ -1,25 +1,58 @@
 # Motion Planning and Decision Making for Autonomous Vehicles
 
-This submission provides the completed TODO logic requested by the Udacity project rubric.
+This submission is based on Udacity's complete
+[`nd013-c5-planning-starter`](https://github.com/udacity/nd013-c5-planning-starter)
+workspace at commit `52d356ca4cbe0980637a020bb93ced9ea8cbd70a`. The previous
+submission contained only five detached snippets and could not compile. This
+version restores the full project structure and implements every required TODO
+in the original classes.
 
-## Completed Files
+## Rubric Implementation
 
-- `behavior_planner_FSM.cpp`
-- `cost_functions.cpp`
-- `motion_planner.cpp`
-- `velocity_profile_generator.cpp`
-- `planning_params.h`
+- `behavior_planner_FSM.cpp`: braking-distance lookahead; buffered stop goal;
+  nominal and stop velocities; stable `FOLLOW_LANE -> DECEL_TO_STOP -> STOPPED
+  -> FOLLOW_LANE` transitions using distance to the fixed stop goal.
+- `planning_params.h`: seven symmetric candidate paths and 25 samples per
+  cubic spiral.
+- `motion_planner.cpp`: laterally offset goals on the line perpendicular to the
+  road heading.
+- `velocity_profile_generator.cpp`: constant-acceleration distance and final
+  speed equations, including zero acceleration and invalid discriminants.
+- `cost_functions.cpp`: oriented collision-circle placement, actor clearance,
+  and distance from each spiral endpoint to the main goal.
 
-## Implementation Summary
+## Project Layout
 
-The behavior planner implements the required finite-state machine:
+The complete runnable workspace is under `project/`. The files evaluated by the
+rubric are in `project/starter_files/`, together with the required headers,
+Eigen sources, CMake configuration, simulator bridge, and launch scripts.
 
-- `FOLLOW_LANE` computes a stopping-distance-based lookahead and drives nominally at the speed limit.
-- `DECEL_TO_STOP` keeps the stop-line goal fixed and uses distance to decide when the ego vehicle has arrived.
-- `STOPPED` holds the same stop goal for the required dwell period before returning to lane following when safe.
+## Build in the Course Environment
 
-The motion planner generates seven laterally offset cubic-spiral goals around the centerline goal.  The velocity planner uses rectilinear constant-acceleration equations for deceleration and nominal speed profiles.  The cost functions place collision-checking circles along each spiral, compare actor distances against circle radii, and prefer collision-free spirals that end closest to the centerline goal.
+The official build expects the Udacity Ubuntu 20.04/CARLA 0.9.9.4 environment,
+including `/opt/carla-source` and its prebuilt libraries:
 
-## Workspace Notes
+```bash
+cd project/starter_files
+cmake .
+make -j2
+```
 
-Copy the TODO implementations into the matching starter files in the Udacity workspace, then compile and run the project workspace as instructed in the classroom.
+To run the integrated simulator after CARLA is started:
+
+```bash
+cd project
+./run_main.sh
+```
+
+## Core Regression Tests
+
+The dependency-isolated tests compile the submitted production sources with
+small CARLA type stubs. They cover all rubric formulas and state transitions:
+
+```bash
+./tests/run_core_tests.sh
+```
+
+See `VALIDATION.md` for the exact validation evidence and `REVIEW_RESPONSE.md`
+for the correction made after the previous ungradeable submission.
