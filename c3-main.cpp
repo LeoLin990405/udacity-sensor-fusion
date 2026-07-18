@@ -154,8 +154,10 @@ int main() {
                                    detection.y * detection.y +
                                    detection.z * detection.z;
       if (range_squared > 8.0) {
-        pending_cloud.points.emplace_back(
-            detection.x, detection.y, detection.z);
+        // Convert CARLA's sensor frame to the PCL/course map frame used by the
+        // current Udacity virtual environment.
+        pending_cloud.points.push_back(
+            PointT(-detection.y, detection.x, -detection.z));
       }
     }
 

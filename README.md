@@ -11,6 +11,10 @@ provided map, using the previous LiDAR-only estimate as its initial guess. The
 accepted NDT transform updates the estimated vehicle pose and transforms the
 red scan into the map frame for visualization.
 
+The LiDAR callback converts CARLA detections to the PCL/course map frame as
+`(-y, x, -z)`. This matches the current Udacity virtual-environment starter
+revision and avoids the coordinate-frame mismatch identified in review.
+
 The implementation uses the CARLA ground-truth transform only to draw the red
 reference vehicle and calculate the rubric's error metric. Localization starts
 at the known origin and, after that initialization, uses LiDAR scan matching
@@ -64,5 +68,8 @@ libraries:
 - The executable loaded successfully and reached the CARLA connection step.
 
 This revision also replaces the incomplete earlier submission with the complete
-starter integration and reads CARLA LiDAR locations through the valid
-`detection.x`, `detection.y`, and `detection.z` fields.
+starter integration. Submission 4778660 was returned because the current
+Udacity CARLA environment requires its LiDAR detections to be converted to the
+PCL/course map frame. The callback now applies the reviewer-provided
+`PointT(-detection.y, detection.x, -detection.z)` conversion, and
+`tests/lidar_coordinate_regression.sh` guards that compatibility requirement.
