@@ -11,16 +11,16 @@
 #
 
 # imports
+import os
 import numpy as np
 import matplotlib
-matplotlib.use('wxagg') # change backend so that figure maximizing works on Mac as well     
+matplotlib.use(os.environ.get('MPLBACKEND', 'Agg'))
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from matplotlib.path import Path
 from matplotlib import colors
 from matplotlib.transforms import Affine2D
 import matplotlib.ticker as ticker
-import os
 import cv2
 
 # add project directory to python path to enable relative imports
@@ -143,7 +143,8 @@ def plot_tracks(fig, ax, ax2, track_list, meas_list, lidar_labels, lidar_labels_
     
     # maximize window        
     mng = plt.get_current_fig_manager()
-    mng.frame.Maximize(True)
+    if hasattr(mng, 'frame') and hasattr(mng.frame, 'Maximize'):
+        mng.frame.Maximize(True)
     
     # axis 
     ax.set_xlabel('y [m]')
@@ -162,16 +163,18 @@ def plot_tracks(fig, ax, ax2, track_list, meas_list, lidar_labels, lidar_labels_
         if label not in label_list:
             handle_list.append(handle)
             label_list.append(label)
-    ax.legend(handle_list, label_list, loc='center left', shadow=True, fontsize='x-large', bbox_to_anchor=(0.8, 0.5))
+    ax.legend(handle_list, label_list, loc='upper right', shadow=True, fontsize='medium')
 
-    plt.pause(0.01)
+    if 'agg' not in plt.get_backend().lower():
+        plt.pause(0.01)
     
     return fig, ax, ax2
 
 
-def plot_rmse(manager, all_labels, configs_det):
+def plot_rmse(manager, all_labels, configs_det, output_path=None):
     fig, ax = plt.subplots()
     plot_empty = True
+    summary = {}
     
     # loop over all tracks
     for track_id in range(manager.last_id+1):
@@ -212,13 +215,20 @@ def plot_rmse(manager, all_labels, configs_det):
         if cnt != 0:
             plot_empty = False
             rmse_sum /= cnt
+            summary[str(track_id)] = {
+                'mean_rmse': float(rmse_sum),
+                'samples': cnt,
+                'start_time': float(time[0]),
+                'end_time': float(time[-1]),
+            }
             # plot RMSE
             ax.plot(time, rmse, marker='x', label='RMSE track ' + str(track_id) + '\n(mean: ' 
                     + '{:.2f}'.format(rmse_sum) + ')')
     
     # maximize window     
     mng = plt.get_current_fig_manager()
-    mng.frame.Maximize(True)
+    if hasattr(mng, 'frame') and hasattr(mng.frame, 'Maximize'):
+        mng.frame.Maximize(True)
     ax.set_ylim(0,1)
     if plot_empty: 
         print('No confirmed tracks found to plot RMSE!')
@@ -226,17 +236,31 @@ def plot_rmse(manager, all_labels, configs_det):
         plt.legend(loc='center left', shadow=True, fontsize='x-large', bbox_to_anchor=(0.9, 0.5))
         plt.xlabel('time [s]')
         plt.ylabel('RMSE [m]')
-        plt.show()
+        fig.tight_layout()
+        if output_path:
+            fig.savefig(output_path, dpi=160, bbox_inches='tight')
+        else:
+            plt.show()
+    plt.close(fig)
+    return summary
         
         
 def make_movie(path):
     # read track plots
-    images = [img for img in sorted(os.listdir(path)) if img.endswith(".png")]
+    images = [
+        img for img in sorted(os.listdir(path))
+        if img.startswith('tracking') and img.endswith('.png')
+    ]
+    if not images:
+        raise RuntimeError('No tracking frames were generated')
     frame = cv2.imread(os.path.join(path, images[0]))
     height, width, layers = frame.shape
 
     # save with 10fps to result dir
-    video = cv2.VideoWriter(os.path.join(path, 'my_tracking_results.avi'), 0, 10, (width,height))
+    codec = cv2.VideoWriter_fourcc(*'MJPG')
+    video = cv2.VideoWriter(os.path.join(path, 'my_tracking_results.avi'), codec, 10, (width,height))
+    if not video.isOpened():
+        raise RuntimeError('Could not initialize the tracking video writer')
 
     for image in images:
         fname = os.path.join(path, image)

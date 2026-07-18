@@ -128,6 +128,35 @@ Parts of this project are based on the following repositories:
 - [Super Fast and Accurate 3D Object Detection based on 3D LiDAR Point Clouds](https://github.com/maudzung/SFA3D)
 - [Complex-YOLO: Real-time 3D Object Detection on Point Clouds](https://github.com/maudzung/Complex-YOLOv4-Pytorch)
 
+## Final Tracking Results
+
+The final pipeline was run on all 199 available frames of Sequence 1 with the
+Udacity-provided pre-computed lidar detections. Each frame performs lidar
+association and update first, followed by camera association and update.
+
+| Track | Confirmed samples | Time span | Mean RMSE |
+|---|---:|---:|---:|
+| 0 | 197 | 0.1-19.7 s | 0.169 m |
+| 1 | 197 | 0.1-19.7 s | 0.107 m |
+| 14 | 101 | 9.7-19.7 s | 0.142 m |
+
+The two full-sequence tracks are both below the rubric threshold of 0.25 m.
+The submitted evidence is:
+
+- `rmse.png` and `rmse.pdf`: RMSE curves for all three confirmed tracks.
+- `rmse_summary.json`: machine-readable sample counts, time spans, and means.
+- `my_tracking_results.avi` and `my_tracking_results.mp4`: 199-frame, 10 fps camera/BEV tracking movie.
+- `full_run.log`: complete output showing 502 lidar updates and 478 camera updates.
+
+The final-project execution settings are the defaults in
+`loop_over_dataset.py`. The frame range can be changed without editing code by
+setting `START_FRAME` and `END_FRAME`; `WAYMO_DATA_FILENAME` selects another
+sequence. Core tracking tests can be run with:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
 
 ## License
 [License](LICENSE.md)

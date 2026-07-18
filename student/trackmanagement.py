@@ -115,6 +115,7 @@ class Trackmanagement:
     def delete_track(self, track):
         print('deleting track no.', track.id)
         self.track_list.remove(track)
+        self.N -= 1
         
     def handle_updated_track(self, track):      
         track.score = min(1.0, track.score + 1.0 / params.window)
