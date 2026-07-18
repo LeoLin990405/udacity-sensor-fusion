@@ -1,6 +1,7 @@
 
 #include <iostream>
 #include <algorithm>
+#include <stdexcept>
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
 #include "lidarData.hpp"
@@ -41,15 +42,21 @@ void loadLidarFromFile(vector<LidarPoint> &lidarPoints, string filename)
     // load point cloud
     FILE *stream;
     stream = fopen (filename.c_str(),"rb");
+    if (stream == nullptr)
+    {
+        free(data);
+        throw runtime_error("Unable to load Lidar file: " + filename);
+    }
     num = fread(data,sizeof(float),num,stream)/4;
  
-    for (int32_t i=0; i<num; i++) {
+    for (unsigned long i=0; i<num; i++) {
         LidarPoint lpt;
         lpt.x = *px; lpt.y = *py; lpt.z = *pz; lpt.r = *pr;
         lidarPoints.push_back(lpt);
         px+=4; py+=4; pz+=4; pr+=4;
     }
     fclose(stream);
+    free(data);
 }
 
 
@@ -72,7 +79,7 @@ void showLidarTopview(std::vector<LidarPoint> &lidarPoints, cv::Size worldSize, 
 
     // plot distance markers
     float lineSpacing = 2.0; // gap between distance markers
-    int nMarkers = floor(worldSize.height / lineSpacing);
+    size_t nMarkers = static_cast<size_t>(floor(worldSize.height / lineSpacing));
     for (size_t i = 0; i < nMarkers; ++i)
     {
         int y = (-(i * lineSpacing) * imageSize.height / worldSize.height) + imageSize.height;

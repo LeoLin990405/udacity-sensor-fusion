@@ -17,16 +17,24 @@ using namespace std;
 void detectObjects(cv::Mat& img, std::vector<BoundingBox>& bBoxes, float confThreshold, float nmsThreshold, 
                    std::string basePath, std::string classesFile, std::string modelConfiguration, std::string modelWeights, bool bVis)
 {
+    (void)basePath;
     // load class names from file
-    vector<string> classes;
-    ifstream ifs(classesFile.c_str());
-    string line;
-    while (getline(ifs, line)) classes.push_back(line);
+    static vector<string> classes;
+    if (classes.empty())
+    {
+        ifstream ifs(classesFile.c_str());
+        string line;
+        while (getline(ifs, line)) classes.push_back(line);
+    }
     
     // load neural network
-    cv::dnn::Net net = cv::dnn::readNetFromDarknet(modelConfiguration, modelWeights);
-    net.setPreferableBackend(cv::dnn::DNN_BACKEND_OPENCV);
-    net.setPreferableTarget(cv::dnn::DNN_TARGET_CPU);
+    static cv::dnn::Net net;
+    if (net.empty())
+    {
+        net = cv::dnn::readNetFromDarknet(modelConfiguration, modelWeights);
+        net.setPreferableBackend(cv::dnn::DNN_BACKEND_OPENCV);
+        net.setPreferableTarget(cv::dnn::DNN_TARGET_CPU);
+    }
     
     // generate 4D blob from input image
     cv::Mat blob;
