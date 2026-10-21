@@ -1,0 +1,4281 @@
+------------------------------
+processing frame #0
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+creating track no. 0
+creating track no. 1
+track 0 score = 0.16666666666666666
+track 1 score = 0.16666666666666666
+update track 0 with camera measurement 3
+update track 1 with camera measurement 4
+track 0 score = 0.3333333333333333
+track 1 score = 0.3333333333333333
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking000.png
+------------------------------
+processing frame #1
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 0.5
+track 1 score = 0.5
+update track 0 with camera measurement 3
+update track 1 with camera measurement 4
+track 0 score = 0.6666666666666666
+track 1 score = 0.6666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking001.png
+------------------------------
+processing frame #2
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 0.8333333333333333
+track 1 score = 0.8333333333333333
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 0.9999999999999999
+track 1 score = 0.9999999999999999
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking002.png
+------------------------------
+processing frame #3
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking003.png
+------------------------------
+processing frame #4
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking004.png
+------------------------------
+processing frame #5
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking005.png
+------------------------------
+processing frame #6
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking006.png
+------------------------------
+processing frame #7
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking007.png
+------------------------------
+processing frame #8
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking008.png
+------------------------------
+processing frame #9
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking009.png
+------------------------------
+processing frame #10
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+creating track no. 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 2 score = 0.16666666666666666
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+---no more associations---
+deleting track no. 2
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking010.png
+------------------------------
+processing frame #11
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking011.png
+------------------------------
+processing frame #12
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 0 with camera measurement 2
+update track 1 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking012.png
+------------------------------
+processing frame #13
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+update track 0 with camera measurement 2
+update track 1 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking013.png
+------------------------------
+processing frame #14
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 3
+update track 0 with camera measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking014.png
+------------------------------
+processing frame #15
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+update track 0 with camera measurement 2
+update track 1 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking015.png
+------------------------------
+processing frame #16
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 3
+update track 0 with camera measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking016.png
+------------------------------
+processing frame #17
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 3
+update track 0 with camera measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking017.png
+------------------------------
+processing frame #18
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 3
+update track 0 with camera measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking018.png
+------------------------------
+processing frame #19
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 3
+update track 0 with camera measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking019.png
+------------------------------
+processing frame #20
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 3
+update track 0 with camera measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking020.png
+------------------------------
+processing frame #21
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 3
+update track 0 with camera measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking021.png
+------------------------------
+processing frame #22
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 3
+update track 0 with camera measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking022.png
+------------------------------
+processing frame #23
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 3
+update track 0 with camera measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking023.png
+------------------------------
+processing frame #24
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+update track 0 with camera measurement 2
+update track 1 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking024.png
+------------------------------
+processing frame #25
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 3
+update track 0 with camera measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking025.png
+------------------------------
+processing frame #26
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 0
+creating track no. 3
+track 0 score = 1.0
+track 1 score = 1.0
+track 3 score = 0.16666666666666666
+update track 1 with camera measurement 3
+update track 0 with camera measurement 2
+---no more associations---
+deleting track no. 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking026.png
+------------------------------
+processing frame #27
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+creating track no. 4
+track 0 score = 1.0
+track 1 score = 1.0
+track 4 score = 0.16666666666666666
+update track 1 with camera measurement 3
+update track 0 with camera measurement 2
+---no more associations---
+deleting track no. 4
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking027.png
+------------------------------
+processing frame #28
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+creating track no. 5
+track 0 score = 1.0
+track 1 score = 1.0
+track 5 score = 0.16666666666666666
+update track 0 with camera measurement 2
+update track 1 with camera measurement 3
+---no more associations---
+deleting track no. 5
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking028.png
+------------------------------
+processing frame #29
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+creating track no. 6
+track 0 score = 1.0
+track 1 score = 1.0
+track 6 score = 0.16666666666666666
+update track 1 with camera measurement 3
+update track 0 with camera measurement 2
+---no more associations---
+deleting track no. 6
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking029.png
+------------------------------
+processing frame #30
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 3
+update track 0 with camera measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking030.png
+------------------------------
+processing frame #31
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 3
+update track 0 with camera measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking031.png
+------------------------------
+processing frame #32
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking032.png
+------------------------------
+processing frame #33
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 3
+update track 0 with camera measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking033.png
+------------------------------
+processing frame #34
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 0 with camera measurement 2
+update track 1 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking034.png
+------------------------------
+processing frame #35
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 3
+update track 0 with camera measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking035.png
+------------------------------
+processing frame #36
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 0 with camera measurement 2
+update track 1 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking036.png
+------------------------------
+processing frame #37
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking037.png
+------------------------------
+processing frame #38
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking038.png
+------------------------------
+processing frame #39
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking039.png
+------------------------------
+processing frame #40
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking040.png
+------------------------------
+processing frame #41
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking041.png
+------------------------------
+processing frame #42
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking042.png
+------------------------------
+processing frame #43
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking043.png
+------------------------------
+processing frame #44
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+creating track no. 7
+track 0 score = 1.0
+track 1 score = 1.0
+track 7 score = 0.16666666666666666
+update track 0 with camera measurement 3
+update track 1 with camera measurement 4
+---no more associations---
+deleting track no. 7
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking044.png
+------------------------------
+processing frame #45
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+creating track no. 8
+creating track no. 9
+track 0 score = 1.0
+track 1 score = 1.0
+track 8 score = 0.16666666666666666
+track 9 score = 0.16666666666666666
+update track 1 with camera measurement 4
+update track 9 with camera measurement 0
+update track 0 with camera measurement 3
+---no more associations---
+deleting track no. 8
+track 0 score = 1.0
+track 1 score = 1.0
+track 9 score = 0.3333333333333333
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking045.png
+------------------------------
+processing frame #46
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 9
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 9 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 9 score = 0.5
+update track 0 with camera measurement 3
+update track 1 with camera measurement 4
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 9 score = 0.33333333333333337
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking046.png
+------------------------------
+processing frame #47
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 9
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 9 score = 0.1666666666666667
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 9 score = 0.1666666666666667
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking047.png
+------------------------------
+processing frame #48
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 9
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+deleting track no. 9
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking048.png
+------------------------------
+processing frame #49
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking049.png
+------------------------------
+processing frame #50
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking050.png
+------------------------------
+processing frame #51
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking051.png
+------------------------------
+processing frame #52
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+creating track no. 10
+track 0 score = 1.0
+track 1 score = 1.0
+track 10 score = 0.16666666666666666
+update track 1 with camera measurement 4
+update track 10 with camera measurement 0
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+track 10 score = 0.3333333333333333
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking052.png
+------------------------------
+processing frame #53
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 10
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+deleting track no. 10
+track 0 score = 1.0
+track 1 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking053.png
+------------------------------
+processing frame #54
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+creating track no. 11
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.16666666666666666
+update track 1 with camera measurement 4
+update track 11 with camera measurement 0
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.3333333333333333
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking054.png
+------------------------------
+processing frame #55
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 11
+update track 11 with lidar measurement 2
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.5
+update track 0 with camera measurement 3
+update track 1 with camera measurement 4
+update track 11 with camera measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.6666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking055.png
+------------------------------
+processing frame #56
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 11
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.5
+update track 11 with camera measurement 0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.6666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking056.png
+------------------------------
+processing frame #57
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 11
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.5
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+update track 11 with camera measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.6666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking057.png
+------------------------------
+processing frame #58
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 11
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.5
+update track 0 with camera measurement 3
+update track 11 with camera measurement 0
+update track 1 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.6666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking058.png
+------------------------------
+processing frame #59
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 11
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.5
+update track 11 with camera measurement 0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.6666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking059.png
+------------------------------
+processing frame #60
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 11
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.5
+update track 11 with camera measurement 0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.6666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking060.png
+------------------------------
+processing frame #61
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 11
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.5
+update track 0 with camera measurement 3
+update track 1 with camera measurement 4
+update track 11 with camera measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.6666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking061.png
+------------------------------
+processing frame #62
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 11
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.5
+update track 11 with camera measurement 0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.6666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking062.png
+------------------------------
+processing frame #63
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 11
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.5
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+update track 11 with camera measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.6666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking063.png
+------------------------------
+processing frame #64
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 11
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.5
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+update track 11 with camera measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.6666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking064.png
+------------------------------
+processing frame #65
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 11
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.5
+update track 0 with camera measurement 3
+update track 11 with camera measurement 0
+update track 1 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.6666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking065.png
+------------------------------
+processing frame #66
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 11
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.5
+update track 0 with camera measurement 3
+update track 1 with camera measurement 4
+update track 11 with camera measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.6666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking066.png
+------------------------------
+processing frame #67
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 11
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.5
+update track 11 with camera measurement 0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.6666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking067.png
+------------------------------
+processing frame #68
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 11
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.5
+update track 0 with camera measurement 3
+update track 11 with camera measurement 0
+update track 1 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.6666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking068.png
+------------------------------
+processing frame #69
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 11
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.5
+update track 1 with camera measurement 4
+update track 11 with camera measurement 0
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.6666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking069.png
+------------------------------
+processing frame #70
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 11
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.5
+update track 11 with camera measurement 0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.6666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking070.png
+------------------------------
+processing frame #71
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 11
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.5
+update track 11 with camera measurement 0
+update track 1 with camera measurement 4
+---no more associations---
+track 0 score = 0.8333333333333334
+track 1 score = 1.0
+track 11 score = 0.6666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking071.png
+------------------------------
+processing frame #72
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 11
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.5
+update track 1 with camera measurement 4
+update track 11 with camera measurement 0
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.6666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking072.png
+------------------------------
+processing frame #73
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 11
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.5
+update track 11 with camera measurement 0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.6666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking073.png
+------------------------------
+processing frame #74
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 11
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.5
+update track 11 with camera measurement 0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+track 11 score = 0.6666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking074.png
+------------------------------
+processing frame #75
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 11
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+deleting track no. 11
+track 0 score = 1.0
+track 1 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking075.png
+------------------------------
+processing frame #76
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking076.png
+------------------------------
+processing frame #77
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking077.png
+------------------------------
+processing frame #78
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking078.png
+------------------------------
+processing frame #79
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking079.png
+------------------------------
+processing frame #80
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking080.png
+------------------------------
+processing frame #81
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking081.png
+------------------------------
+processing frame #82
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking082.png
+------------------------------
+processing frame #83
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking083.png
+------------------------------
+processing frame #84
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking084.png
+------------------------------
+processing frame #85
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+creating track no. 12
+track 0 score = 1.0
+track 1 score = 1.0
+track 12 score = 0.16666666666666666
+update track 0 with camera measurement 3
+update track 1 with camera measurement 4
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 12 score = 0.16666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking085.png
+------------------------------
+processing frame #86
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 12
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+deleting track no. 12
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking086.png
+------------------------------
+processing frame #87
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking087.png
+------------------------------
+processing frame #88
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+creating track no. 13
+track 0 score = 1.0
+track 1 score = 1.0
+track 13 score = 0.16666666666666666
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 13 score = 0.16666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking088.png
+------------------------------
+processing frame #89
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 13
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+deleting track no. 13
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking089.png
+------------------------------
+processing frame #90
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking090.png
+------------------------------
+processing frame #91
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking091.png
+------------------------------
+processing frame #92
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+creating track no. 14
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 0.16666666666666666
+update track 1 with camera measurement 4
+---no more associations---
+track 0 score = 0.8333333333333334
+track 1 score = 1.0
+track 14 score = 0.16666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking092.png
+------------------------------
+processing frame #93
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 2
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 0.3333333333333333
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 0.3333333333333333
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking093.png
+------------------------------
+processing frame #94
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 0.16666666666666666
+update track 1 with camera measurement 4
+---no more associations---
+track 0 score = 0.8333333333333334
+track 1 score = 1.0
+track 14 score = 0.16666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking094.png
+------------------------------
+processing frame #95
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 2
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 0.3333333333333333
+update track 1 with camera measurement 4
+---no more associations---
+track 0 score = 0.8333333333333334
+track 1 score = 1.0
+track 14 score = 0.3333333333333333
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking095.png
+------------------------------
+processing frame #96
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 0.5
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 0.5
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking096.png
+------------------------------
+processing frame #97
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 2
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 0.6666666666666666
+update track 1 with camera measurement 4
+update track 0 with camera measurement 3
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 0.6666666666666666
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking097.png
+------------------------------
+processing frame #98
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 2
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 0.8333333333333333
+update track 0 with camera measurement 3
+update track 1 with camera measurement 4
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 0.8333333333333333
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking098.png
+------------------------------
+processing frame #99
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 1
+update track 14 with lidar measurement 2
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 0.9999999999999999
+update track 1 with camera measurement 5
+update track 0 with camera measurement 3
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 0.9999999999999999
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking099.png
+------------------------------
+processing frame #100
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 0
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 5
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking100.png
+------------------------------
+processing frame #101
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 2
+update track 14 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 5
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking101.png
+------------------------------
+processing frame #102
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 5
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking102.png
+------------------------------
+processing frame #103
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 5
+update track 0 with camera measurement 3
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking103.png
+------------------------------
+processing frame #104
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 1
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 5
+update track 0 with camera measurement 3
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking104.png
+------------------------------
+processing frame #105
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 1
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 5
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking105.png
+------------------------------
+processing frame #106
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 1
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 5
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking106.png
+------------------------------
+processing frame #107
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 1
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 5
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking107.png
+------------------------------
+processing frame #108
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 0
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 5
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking108.png
+------------------------------
+processing frame #109
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 0
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 5
+update track 0 with camera measurement 3
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking109.png
+------------------------------
+processing frame #110
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 0
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 5
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking110.png
+------------------------------
+processing frame #111
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 0
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 5
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking111.png
+------------------------------
+processing frame #112
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 0
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 5
+update track 0 with camera measurement 3
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking112.png
+------------------------------
+processing frame #113
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 0
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 5
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking113.png
+------------------------------
+processing frame #114
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 0
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 5
+update track 0 with camera measurement 3
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking114.png
+------------------------------
+processing frame #115
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 1
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 5
+update track 0 with camera measurement 3
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking115.png
+------------------------------
+processing frame #116
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 2
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 5
+update track 0 with camera measurement 3
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking116.png
+------------------------------
+processing frame #117
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 2
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 5
+update track 0 with camera measurement 3
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking117.png
+------------------------------
+processing frame #118
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 2
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 5
+update track 0 with camera measurement 3
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking118.png
+------------------------------
+processing frame #119
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 1
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 5
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking119.png
+------------------------------
+processing frame #120
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 1
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 5
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking120.png
+------------------------------
+processing frame #121
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 2
+update track 14 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 5
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking121.png
+------------------------------
+processing frame #122
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 0
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 5
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking122.png
+------------------------------
+processing frame #123
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 5
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking123.png
+------------------------------
+processing frame #124
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 1
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 5
+update track 14 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking124.png
+------------------------------
+processing frame #125
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 14 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 5
+update track 0 with camera measurement 3
+update track 14 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking125.png
+------------------------------
+processing frame #126
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 14 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 14 with camera measurement 4
+update track 1 with camera measurement 5
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking126.png
+------------------------------
+processing frame #127
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 1
+update track 14 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 14 with camera measurement 4
+update track 0 with camera measurement 3
+update track 1 with camera measurement 5
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking127.png
+------------------------------
+processing frame #128
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 0 with lidar measurement 2
+update track 1 with lidar measurement 1
+update track 14 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 5
+update track 0 with camera measurement 3
+update track 14 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking128.png
+------------------------------
+processing frame #129
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 2
+update track 14 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 3
+update track 14 with camera measurement 4
+update track 1 with camera measurement 5
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking129.png
+------------------------------
+processing frame #130
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 2
+update track 14 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 5
+update track 14 with camera measurement 4
+update track 0 with camera measurement 3
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking130.png
+------------------------------
+processing frame #131
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 2
+update track 14 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 5
+update track 0 with camera measurement 3
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 0.8333333333333334
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking131.png
+------------------------------
+processing frame #132
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 0
+update track 14 with lidar measurement 1
+update track 0 with lidar measurement 2
+creating track no. 15
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+track 15 score = 0.16666666666666666
+update track 0 with camera measurement 3
+update track 1 with camera measurement 5
+---no more associations---
+deleting track no. 15
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 0.8333333333333334
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking132.png
+------------------------------
+processing frame #133
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 0
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 5
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 0.8333333333333334
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking133.png
+------------------------------
+processing frame #134
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 0
+update track 14 with lidar measurement 2
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 3
+update track 1 with camera measurement 5
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 0.8333333333333334
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking134.png
+------------------------------
+processing frame #135
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 0 with lidar measurement 0
+update track 14 with lidar measurement 1
+update track 1 with lidar measurement 2
+creating track no. 16
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+track 16 score = 0.16666666666666666
+update track 0 with camera measurement 3
+update track 1 with camera measurement 5
+---no more associations---
+deleting track no. 16
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 0.8333333333333334
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking135.png
+------------------------------
+processing frame #136
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 1
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 5
+update track 0 with camera measurement 3
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 0.8333333333333334
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking136.png
+------------------------------
+processing frame #137
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 2
+update track 14 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 5
+update track 0 with camera measurement 3
+---no more associations---
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 0.8333333333333334
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking137.png
+------------------------------
+processing frame #138
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 2
+update track 14 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 4
+update track 1 with camera measurement 6
+update track 14 with camera measurement 5
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking138.png
+------------------------------
+processing frame #139
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 0 with lidar measurement 1
+update track 14 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 6
+update track 14 with camera measurement 5
+update track 0 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking139.png
+------------------------------
+processing frame #140
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 14 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 4
+update track 1 with camera measurement 6
+update track 14 with camera measurement 5
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking140.png
+------------------------------
+processing frame #141
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 2
+update track 14 with lidar measurement 0
+creating track no. 17
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+track 17 score = 0.16666666666666666
+update track 14 with camera measurement 5
+update track 1 with camera measurement 6
+update track 0 with camera measurement 4
+---no more associations---
+deleting track no. 17
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking141.png
+------------------------------
+processing frame #142
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 0
+update track 14 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 6
+update track 14 with camera measurement 5
+update track 0 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking142.png
+------------------------------
+processing frame #143
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 0
+update track 14 with lidar measurement 1
+creating track no. 18
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+track 18 score = 0.16666666666666666
+update track 0 with camera measurement 4
+update track 14 with camera measurement 5
+update track 1 with camera measurement 6
+---no more associations---
+deleting track no. 18
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking143.png
+------------------------------
+processing frame #144
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 3
+update track 0 with lidar measurement 0
+update track 14 with lidar measurement 1
+creating track no. 19
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+track 19 score = 0.16666666666666666
+update track 0 with camera measurement 4
+update track 14 with camera measurement 5
+update track 1 with camera measurement 6
+---no more associations---
+deleting track no. 19
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking144.png
+------------------------------
+processing frame #145
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 3
+update track 14 with lidar measurement 1
+creating track no. 20
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+track 20 score = 0.16666666666666666
+update track 0 with camera measurement 4
+update track 1 with camera measurement 6
+update track 14 with camera measurement 5
+---no more associations---
+deleting track no. 20
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking145.png
+------------------------------
+processing frame #146
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+update track 14 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 4
+update track 1 with camera measurement 6
+update track 14 with camera measurement 5
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking146.png
+------------------------------
+processing frame #147
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+update track 14 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 6
+update track 14 with camera measurement 5
+update track 0 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking147.png
+------------------------------
+processing frame #148
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 14 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 6
+update track 0 with camera measurement 4
+update track 14 with camera measurement 5
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking148.png
+------------------------------
+processing frame #149
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 14 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 4
+update track 14 with camera measurement 5
+update track 1 with camera measurement 6
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking149.png
+------------------------------
+processing frame #150
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 14 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 6
+update track 0 with camera measurement 4
+update track 14 with camera measurement 5
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking150.png
+------------------------------
+processing frame #151
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 0 with lidar measurement 0
+update track 14 with lidar measurement 2
+update track 1 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 4
+update track 14 with camera measurement 5
+update track 1 with camera measurement 6
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking151.png
+------------------------------
+processing frame #152
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+update track 14 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 4
+update track 14 with camera measurement 5
+update track 1 with camera measurement 6
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking152.png
+------------------------------
+processing frame #153
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 0
+update track 0 with lidar measurement 1
+update track 14 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 14 with camera measurement 5
+update track 1 with camera measurement 6
+update track 0 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking153.png
+------------------------------
+processing frame #154
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 0
+update track 14 with lidar measurement 1
+update track 0 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 14 with camera measurement 5
+update track 0 with camera measurement 4
+update track 1 with camera measurement 6
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking154.png
+------------------------------
+processing frame #155
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 0
+update track 14 with lidar measurement 1
+update track 0 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 4
+update track 14 with camera measurement 5
+update track 1 with camera measurement 6
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking155.png
+------------------------------
+processing frame #156
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 0
+update track 14 with lidar measurement 1
+update track 0 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 6
+update track 14 with camera measurement 5
+update track 0 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking156.png
+------------------------------
+processing frame #157
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 1
+update track 14 with lidar measurement 0
+update track 0 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 14 with camera measurement 5
+update track 1 with camera measurement 6
+update track 0 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking157.png
+------------------------------
+processing frame #158
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 0
+update track 14 with lidar measurement 1
+update track 0 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 6
+update track 14 with camera measurement 5
+update track 0 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking158.png
+------------------------------
+processing frame #159
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 2
+update track 14 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 14 with camera measurement 5
+update track 1 with camera measurement 6
+update track 0 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking159.png
+------------------------------
+processing frame #160
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 0 with lidar measurement 0
+update track 14 with lidar measurement 1
+update track 1 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 14 with camera measurement 5
+update track 0 with camera measurement 4
+update track 1 with camera measurement 6
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking160.png
+------------------------------
+processing frame #161
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 0 with lidar measurement 1
+update track 14 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 4
+update track 14 with camera measurement 5
+update track 1 with camera measurement 6
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking161.png
+------------------------------
+processing frame #162
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 0 with lidar measurement 2
+update track 1 with lidar measurement 1
+update track 14 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 5
+update track 14 with camera measurement 6
+update track 1 with camera measurement 7
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking162.png
+------------------------------
+processing frame #163
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 0 with lidar measurement 1
+update track 14 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 7
+update track 14 with camera measurement 6
+---no more associations---
+track 0 score = 0.8333333333333334
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking163.png
+------------------------------
+processing frame #164
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 0
+update track 14 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 7
+update track 14 with camera measurement 6
+update track 0 with camera measurement 5
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking164.png
+------------------------------
+processing frame #165
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 2
+update track 14 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 5
+update track 1 with camera measurement 7
+update track 14 with camera measurement 6
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking165.png
+------------------------------
+processing frame #166
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 0
+update track 14 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 7
+update track 14 with camera measurement 6
+update track 0 with camera measurement 5
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking166.png
+------------------------------
+processing frame #167
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 2
+update track 14 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 7
+update track 0 with camera measurement 5
+update track 14 with camera measurement 6
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking167.png
+------------------------------
+processing frame #168
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 1
+update track 14 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 14 with camera measurement 6
+update track 0 with camera measurement 5
+update track 1 with camera measurement 7
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking168.png
+------------------------------
+processing frame #169
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 2
+update track 14 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 7
+update track 14 with camera measurement 6
+update track 0 with camera measurement 5
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking169.png
+------------------------------
+processing frame #170
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 2
+update track 14 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 14 with camera measurement 6
+update track 1 with camera measurement 7
+---no more associations---
+track 0 score = 0.8333333333333334
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking170.png
+------------------------------
+processing frame #171
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 2
+update track 14 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 7
+update track 14 with camera measurement 6
+update track 0 with camera measurement 5
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking171.png
+------------------------------
+processing frame #172
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 1
+update track 14 with lidar measurement 0
+update track 0 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 5
+update track 14 with camera measurement 6
+---no more associations---
+track 0 score = 1.0
+track 1 score = 0.8333333333333334
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking172.png
+------------------------------
+processing frame #173
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 14 with camera measurement 6
+update track 0 with camera measurement 5
+---no more associations---
+track 0 score = 1.0
+track 1 score = 0.8333333333333334
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking173.png
+------------------------------
+processing frame #174
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 2
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 14 with camera measurement 6
+update track 0 with camera measurement 5
+---no more associations---
+track 0 score = 1.0
+track 1 score = 0.8333333333333334
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking174.png
+------------------------------
+processing frame #175
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 14 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 5
+update track 1 with camera measurement 7
+update track 14 with camera measurement 6
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking175.png
+------------------------------
+processing frame #176
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 1
+update track 14 with lidar measurement 0
+update track 0 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 14 with camera measurement 6
+update track 1 with camera measurement 7
+update track 0 with camera measurement 5
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking176.png
+------------------------------
+processing frame #177
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 0
+update track 0 with lidar measurement 2
+update track 1 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 5
+update track 14 with camera measurement 6
+update track 1 with camera measurement 7
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking177.png
+------------------------------
+processing frame #178
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 2
+update track 14 with lidar measurement 1
+update track 0 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 14 with camera measurement 6
+update track 1 with camera measurement 7
+update track 0 with camera measurement 5
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking178.png
+------------------------------
+processing frame #179
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+update track 14 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 14 with camera measurement 6
+update track 0 with camera measurement 5
+update track 1 with camera measurement 7
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking179.png
+------------------------------
+processing frame #180
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 2
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 5
+update track 14 with camera measurement 6
+update track 1 with camera measurement 7
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking180.png
+------------------------------
+processing frame #181
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 1
+update track 14 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 5
+update track 1 with camera measurement 7
+update track 14 with camera measurement 6
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking181.png
+------------------------------
+processing frame #182
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 0 with lidar measurement 0
+update track 14 with lidar measurement 1
+update track 1 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 5
+update track 14 with camera measurement 6
+update track 1 with camera measurement 7
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking182.png
+------------------------------
+processing frame #183
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 2
+update track 14 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 5
+update track 14 with camera measurement 6
+update track 1 with camera measurement 7
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking183.png
+------------------------------
+processing frame #184
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 1
+update track 0 with lidar measurement 2
+update track 14 with lidar measurement 0
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 7
+update track 14 with camera measurement 6
+update track 0 with camera measurement 5
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking184.png
+------------------------------
+processing frame #185
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 0
+update track 14 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 5
+update track 14 with camera measurement 6
+---no more associations---
+track 0 score = 1.0
+track 1 score = 0.8333333333333334
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking185.png
+------------------------------
+processing frame #186
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 0 with lidar measurement 0
+update track 14 with lidar measurement 1
+update track 1 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 5
+update track 1 with camera measurement 7
+update track 14 with camera measurement 6
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking186.png
+------------------------------
+processing frame #187
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 0 with lidar measurement 0
+update track 14 with lidar measurement 1
+update track 1 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 7
+update track 14 with camera measurement 6
+update track 0 with camera measurement 5
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking187.png
+------------------------------
+processing frame #188
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 0
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 7
+update track 14 with camera measurement 6
+update track 0 with camera measurement 5
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking188.png
+------------------------------
+processing frame #189
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 1 with lidar measurement 2
+update track 14 with lidar measurement 0
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 7
+update track 14 with camera measurement 6
+update track 0 with camera measurement 5
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking189.png
+------------------------------
+processing frame #190
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 0
+update track 1 with lidar measurement 2
+update track 0 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 4
+update track 1 with camera measurement 6
+update track 14 with camera measurement 5
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking190.png
+------------------------------
+processing frame #191
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+update track 14 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 4
+update track 14 with camera measurement 5
+update track 1 with camera measurement 6
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking191.png
+------------------------------
+processing frame #192
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+update track 14 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 14 with camera measurement 5
+update track 1 with camera measurement 6
+update track 0 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking192.png
+------------------------------
+processing frame #193
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 0 with lidar measurement 0
+update track 14 with lidar measurement 1
+update track 1 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 1 with camera measurement 6
+update track 14 with camera measurement 5
+update track 0 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking193.png
+------------------------------
+processing frame #194
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 14 with lidar measurement 1
+update track 0 with lidar measurement 0
+update track 1 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 0 with camera measurement 4
+update track 14 with camera measurement 5
+update track 1 with camera measurement 6
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking194.png
+------------------------------
+processing frame #195
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 0 with lidar measurement 0
+update track 14 with lidar measurement 2
+update track 1 with lidar measurement 1
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 14 with camera measurement 5
+update track 0 with camera measurement 4
+---no more associations---
+track 0 score = 1.0
+track 1 score = 0.8333333333333334
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking195.png
+------------------------------
+processing frame #196
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 0 with lidar measurement 0
+update track 14 with lidar measurement 1
+update track 1 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 14 with camera measurement 5
+update track 1 with camera measurement 6
+update track 0 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking196.png
+------------------------------
+processing frame #197
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 0 with lidar measurement 1
+update track 1 with lidar measurement 0
+update track 14 with lidar measurement 2
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+update track 14 with camera measurement 5
+update track 1 with camera measurement 6
+update track 0 with camera measurement 4
+track 0 score = 1.0
+track 1 score = 1.0
+track 14 score = 1.0
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking197.png
+------------------------------
+processing frame #198
+loading lidar point-cloud from result file
+loading birds-eve view from result file
+loading detected objects from result file
+loading object labels and validation from result file
+loading detection performance measures from file
+predict track 0
+predict track 1
+predict track 14
+update track 0 with lidar measurement 2
+update track 14 with lidar measurement 1
+---no more associations---
+creating track no. 21
+track 0 score = 1.0
+track 1 score = 0.8333333333333334
+track 14 score = 1.0
+track 21 score = 0.16666666666666666
+update track 21 with camera measurement 6
+update track 0 with camera measurement 4
+update track 14 with camera measurement 5
+---no more associations---
+track 0 score = 1.0
+track 1 score = 0.6666666666666667
+track 14 score = 1.0
+track 21 score = 0.3333333333333333
+Saving frame /workspace/home/Sensor-Fusion-Object-Tracking/results/tracking198.png
+StopIteration has been raised
+
