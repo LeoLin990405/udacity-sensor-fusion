@@ -1,0 +1,6 @@
+build*/
+libcarla-install/
+cloud_loc
+core
+*.o
+*.zip
